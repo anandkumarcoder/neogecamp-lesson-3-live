@@ -6,11 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index HTML is a component Library</title>
+   
+    <!-- CSS way 1 : style tag
+        <style>
+        body {color: red;
+        }
+    </style> -->
+    <!-- third way of doing CSS : external link -->
+    <link href="styles.css" rel="stylesheet" />
 </head>
-<h1>Anand Kumar's component Library </h1>
+ 
 
 <body>
-    <p>I am attending neog.camp and I want to make library which
+    <h1 id="lib-header">Anand Kumar's component Library </h1>
+    <!-- CSS 2nd way- applying color to a particular element  style="color: red;" -->
+    <p class="para">I am attending neog.camp and I want to make library which
         would make all my projects look good and consistent</p>
 
     <h2>@typography</h2>
@@ -26,7 +36,7 @@
     <h2>@containers</h2>
     <h3>Fluid container</h3>
 
-    <div>This is going to bea fluid container. It will go
+    <div class="para">This is going to bea fluid container. It will go
         full width of a page. With some margn</div>
 
     <h3>Center container</h3>
