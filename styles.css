@@ -8,7 +8,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-}
+    margin: 0px;
+} 
+/* for font google font */
 
 hr {
     margin: 2rem 0 rem;
@@ -86,16 +88,18 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350;
-    display: bold;
+    max-width: 500px;
+    display: block;
     margin: auto;
+    
 }
 
-/* above code isnt working */
+
 
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-grey);
+    text-align: center;
 
 }
 
@@ -118,3 +122,20 @@ hr {
     background-color: var(--off-white);
 }
 
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link{
+    color: white;
+
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
