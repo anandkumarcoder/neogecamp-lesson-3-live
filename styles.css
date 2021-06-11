@@ -176,10 +176,13 @@ hr {
  
 
     .logo-img-linkedin {
-        max-width: 45px;
+        max-width: 40px;
     }
     .logo-img-github {
-        max-width: 55px;
+        max-width: 60px;
+        margin-top: 0cm;
+        
+        
     }
 
     .logo-img-twitter {
