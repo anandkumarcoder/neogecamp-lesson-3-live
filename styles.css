@@ -104,13 +104,13 @@ hr {
     padding: 2rem;
 }
 
-.hero .hero-img {
+/* .hero .hero-img {
     max-width: 375px;
     line-height: 400px;
     display: block;
     margin: auto;
     
-}
+} */
 
 .hero .project-img{
     max-width: 500px;
