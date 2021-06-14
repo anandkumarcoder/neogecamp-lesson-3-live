@@ -47,6 +47,7 @@ hr {
     display: block;
     max-width: 140px;
     padding: 0.5rem 1rem;
+    align-items: center;
     
     
 }
@@ -112,7 +113,16 @@ hr {
     
 } */
 
-.hero .project-img{
+.responsive{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+
+/* .hero .project-img{
     max-width: 500px;
     display: block;
     margin: auto;
@@ -122,7 +132,7 @@ hr {
     max-width: 500px;
     display: block;
     margin: auto;
-}
+} */
 
 
 .hero .hero-heading {
