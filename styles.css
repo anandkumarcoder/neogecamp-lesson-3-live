@@ -45,7 +45,7 @@ hr {
     border-radius: 0.5rem;
     color: white;
     border: 1px solid var(--primary-color);
-    margin: 5rem 1rem 1rem 0rem;
+    margin-top: 4rem;
     /* display: block; */
     max-width: 140px;
     padding: 0.5rem 1rem;
