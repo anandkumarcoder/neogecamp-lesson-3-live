@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color:#3F88C5;
+    --primary-color: #3F88C5;
     --dark-grey: #6B7280;
     --off-white: #F3F4F6;
     --footer-blue: #5C78DC;
@@ -12,10 +12,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
     margin: 0px;
-} 
+}
+
 /* for font google font */
 
 hr {
+    margin: 2rem 0 rem;
+}
+
+br {
     margin: 2rem 0 rem;
 }
 
@@ -27,7 +32,7 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
-    
+
 }
 
 /* links */
@@ -37,7 +42,7 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     box-sizing: border-box;
-    
+
 }
 
 .link-primary {
@@ -49,22 +54,22 @@ hr {
     /* display: block; */
     max-width: 140px;
     padding: 0.5rem 1rem;
-    
-    
-    
+
+
+
 }
 
 .link-secondary {
     /* background-color: var(--primary-color); */
     border-radius: 0.5rem;
-    color:var(--primary-color);
+    color: var(--primary-color);
     border: 1px solid var(--primary-color);
     /* display: block; */
     max-width: 140px;
     margin: 8rem 1rem 1rem 0rem;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
-    
+
 }
 
 .list-non-bullets {
@@ -116,7 +121,7 @@ hr {
     
 } */
 
-.responsive{
+.responsive {
     max-width: 500px;
     width: 100%;
     height: auto;
@@ -151,58 +156,123 @@ hr {
 
 /* section */
 
-.section{
+.section {
     padding: 2rem;
     text-align: center;
 }
 
 .section h1 {
-    text-align: center;   
+    text-align: center;
 }
 
-.ow{
+.ow {
     background-color: var(--off-white);
 }
 
 /* footer */
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
     color: white;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
 
 /* logo */
 
 
- 
 
-    .logo-img-linkedin {
-        max-width: 40px;
-    }
-    .logo-img-github {
-        max-width: 60px;
-        margin-top: 0cm;
-        
-        
-    }
 
-    .logo-img-twitter {
-        max-width: 55px;
+.logo-img-linkedin {
+    max-width: 40px;
+}
+
+.logo-img-github {
+    width: 55px;
+margin:auto;
+height: 55px;
+
+
+}
+
+.logo-img-twitter {
+    max-width: 55px;
+}
+
+;
+
+/* blogs box */
+
+
+
+.project-item{
+    margin: 30px;
+    border-radius: 2rem;
+    max-width: 350px;
+}
+
+/* flex container */
+.flex-container{
+    display: flex;
+    
+    flex-direction: row;
+     margin: auto;
+    width:auto ;
+    padding: 0.5rem 0.5rem;
+    
+    justify-content: space-evenly;
+    
+    /* box-sizing: border-box; */
+    
+}
+
+.flex-container>div{
+    background-color: grey;
+    color: white;
+    margin:2rem;
+    padding: 1rem;
+    width: 100%;
+  
+    font-size: medium;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width: 800px) {
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
     }
+}
+
+/* blog listing */
+
+
+.blog-div{
+    background-color: var(--off-white);
+}
+
+.blog-div-center{
+    display: block;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
