@@ -176,12 +176,10 @@ br {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
+    
 }
 
-.footer .link {
-    color: white;
 
-}
 
 .footer .footer-header {
     font-weight: bold;
@@ -193,6 +191,19 @@ br {
     padding-inline-start: 0px;
 }
 
+/* index page logos */
+
+.footer .fa{
+    padding:1rem;
+    font-size:40px;
+    width : 50px;
+    text-decoration: none;
+    margin: 5px 10px;
+    color: black;
+
+}
+
+
 /* logo */
 
 
@@ -200,6 +211,7 @@ br {
 
 .logo-img-linkedin {
     max-width: 40px;
+    height: auto;
 }
 
 .logo-img-github {
@@ -212,9 +224,10 @@ height: 55px;
 
 .logo-img-twitter {
     max-width: 55px;
+    
 }
 
-;
+
 
 /* blogs box */
 
@@ -276,3 +289,5 @@ height: 55px;
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
+
+
