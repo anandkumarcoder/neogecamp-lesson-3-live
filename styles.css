@@ -76,6 +76,7 @@ br {
     list-style: none;
 }
 
+
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
@@ -191,7 +192,7 @@ br {
     padding-inline-start: 0px;
 }
 
-/* index page logos */
+
 
 .footer .fa{
     padding:1rem;
@@ -201,30 +202,6 @@ br {
     margin: 5px 10px;
     color: black;
 
-}
-
-
-/* logo */
-
-
-
-
-.logo-img-linkedin {
-    max-width: 40px;
-    height: auto;
-}
-
-.logo-img-github {
-    width: 55px;
-margin:auto;
-height: 55px;
-
-
-}
-
-.logo-img-twitter {
-    max-width: 55px;
-    
 }
 
 
@@ -290,4 +267,9 @@ height: 55px;
     margin-top: 1rem;
 }
 
+/* project page */
+ul.list-non-bullets{
+    margin: 2rem;
+    padding: 1rem;
 
+}
