@@ -85,11 +85,15 @@ br {
 
 /* Navigation */
 
+
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+  
+    
 }
 
 .navigation .nav-pills {
@@ -111,8 +115,26 @@ br {
 
 /* hero */
 
+nav{
+    position: fixed;
+    font-size: 1.3rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+   
+  
+}
+
+header{
+    margin-top: 8rem;
+
+}
+
+
 .hero {
     padding: 2rem;
+    
+    
 }
 
 
