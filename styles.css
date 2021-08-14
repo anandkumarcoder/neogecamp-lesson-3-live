@@ -5,6 +5,7 @@
     --dark-grey: #6B7280;
     --off-white: #F3F4F6;
     --footer-blue: #5C78DC;
+    --light-grey: #f2f2f2;
 
 }
 
@@ -160,6 +161,8 @@ br {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 
@@ -167,7 +170,7 @@ br {
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: large;
+    font-size: 1.8rem;
 
 }
 
@@ -252,7 +255,35 @@ br {
 
 /* project page */ */
  ul.list-non-bullets{
-    margin: 2rem;
+    margin: 10rem;
     padding: 1rem;
 
+}
+
+
+.list-non-bullets-projects{
+    list-style: none;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 3rem auto;
+    display: block;
+    border: 10px solid transparent;
+    border-radius: 30px;
+    max-width: 800px;
+    box-shadow: 15px 5px 20px grey;
+    
+    
+
+}
+
+.lg{
+    background-color: var(--light-grey);
+}
+
+ /* ul .link {
+    margin-top: 10rem;
+} */
+
+.appDiscription{
+    margin-bottom: 1.5rem;
 }
