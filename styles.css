@@ -293,9 +293,15 @@ header{
     border-radius: 30px;
     max-width: 800px;
     box-shadow: 15px 5px 20px grey;
+    margin-right: 1rem;
+   
     
     
 
+}
+
+ul{
+    padding-inline-start: 0px;
 }
 
 .lg{
