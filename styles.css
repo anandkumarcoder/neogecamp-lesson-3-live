@@ -114,13 +114,7 @@ br {
     padding: 2rem;
 }
 
-/* .hero .hero-img {
-    max-width: 375px;
-    line-height: 400px;
-    display: block;
-    margin: auto;
-    
-} */
+
 
 .responsive {
     max-width: 500px;
@@ -131,17 +125,6 @@ br {
 
 }
 
-/* .hero .project-img{
-    max-width: 500px;
-    display: block;
-    margin: auto;
-}
-
-.hero .blog-img{
-    max-width: 500px;
-    display: block;
-    margin: auto;
-} */
 
 
 .hero .hero-heading {
@@ -267,8 +250,8 @@ br {
     margin-top: 1rem;
 }
 
-/* project page */
-ul.list-non-bullets{
+/* project page */ */
+ ul.list-non-bullets{
     margin: 2rem;
     padding: 1rem;
 
