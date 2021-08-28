@@ -263,6 +263,11 @@ header{
 
 .blog-div{
     background-color: var(--off-white);
+    max-width: 65%;
+    margin: 4rem auto;
+    border: 10px solid transparent;
+    border-radius: 30px;
+    box-shadow: 15px 5px 20px grey;
 }
 
 .blog-div-center{
@@ -271,8 +276,29 @@ header{
     padding-top: 1rem;
     margin: auto;
     width: 60%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-top: 1rem;
+    text-align: center;
+    
+    
+    
+}
+.blog-div-center  h2{
+    
+   font-size: 2em;
+    
+}
+
+.blog-div-center h2 a{
+    text-decoration: none;
+    color: var(--primary-color);
+    
+}
+
+.blog-div-center  p{
+    margin-bottom: 2rem;
+    font-size: 18px;
+    
 }
 
 /* project page */ */
@@ -315,3 +341,4 @@ ul{
 .appDiscription{
     margin-bottom: 1.5rem;
 }
+
