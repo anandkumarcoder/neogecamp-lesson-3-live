@@ -42,7 +42,9 @@ br {
     padding: 0.5rem 1 rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    list-style: none;
+  
 
 }
 
@@ -51,10 +53,11 @@ br {
     border-radius: 0.5rem;
     color: white;
     border: 1px solid var(--primary-color);
-    margin-top: 4rem;
-    /* display: block; */
+    margin: 1rem auto;
+    display: inline-block;
     max-width: 140px;
     padding: 0.5rem 1rem;
+    text-decoration: none;
 
 
 
@@ -67,7 +70,7 @@ br {
     border: 1px solid var(--primary-color);
     /* display: block; */
     max-width: 140px;
-    margin: 8rem 1rem 1rem 0rem;
+    margin: 1rem auto;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
 
@@ -81,6 +84,7 @@ br {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+    text-decoration: none;
 }
 
 /* Navigation */
@@ -90,30 +94,15 @@ br {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 25px;
+    
+    
     border-bottom-left-radius: 1rem;
   
     
 }
-
-.navigation .nav-pills {
-    text-align: center;
-}
-
-.navigation .link {
-    color: white;
-}
-
-.navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-
-.navigation .link-active {
-    font-weight: bold;
-}
-
-/* hero */
 
 nav{
     position: fixed;
@@ -121,9 +110,91 @@ nav{
     width: 100%;
     top: 0;
     left: 0;
+    display: inline;
    
   
 }
+
+
+
+
+.navigation .nav-pills {
+    text-align: center;
+    list-style: none;
+    color: white;
+    
+}
+
+ .navigation .link-nav {
+    color: white;
+    display: inline-block;
+    list-style: none;
+    padding: 0rem 0.5rem;
+    text-decoration: none;
+}
+
+.navigation .nav-brand {
+   
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}  
+/* new code starts */
+
+ /* .nav-brand .list-non-bullets{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+   
+    
+}
+
+.nav-brand .nav-list-itme-inline {
+    display: inline;
+    padding: 1.1rem;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+} */
+
+/* .nav-brand ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+    list-style: none;
+}  */
+
+/* Hover  */
+.navigation a::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background:white;
+    display: block;
+    transition: 0.3s;
+    
+    margin: auto;
+    
+}
+
+.navigation a:hover::after{
+    width: 100%;
+    
+}
+
+
+
+    
+
+/* hero */
+
 
 header{
     margin-top: 8rem;
@@ -275,7 +346,7 @@ header{
     padding-bottom: 2rem;
     padding-top: 1rem;
     margin: auto;
-    width: 60%;
+    width: 70%;
     margin-bottom: 1rem;
     margin-top: 1rem;
     text-align: center;
@@ -301,12 +372,12 @@ header{
     
 }
 
-/* project page */ */
- ul.list-non-bullets{
+/* project page */ 
+ /* ul.list-non-bullets{
     margin: 10rem;
     padding: 1rem;
 
-}
+}  */
 
 
 .list-non-bullets-projects{
@@ -326,9 +397,9 @@ header{
 
 }
 
-ul{
+/* ul{
     padding-inline-start: 0px;
-}
+} */
 
 .lg{
     background-color: var(--light-grey);
