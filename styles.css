@@ -39,7 +39,7 @@ br {
 /* links */
 .link {
     text-decoration: none;
-    padding: 0.5rem 1 rem;
+    padding: 0.5rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     box-sizing: border-box; 
@@ -105,7 +105,7 @@ br {
 }
 
 nav{
-    position: fixed;
+    position: absolute;
     font-size: 1.2rem;
     width: 100%;
     top: 0;
@@ -215,7 +215,8 @@ header{
     width: 100%;
     height: auto;
     display: block;
-    margin: auto;
+    margin: 1rem auto;
+
 
 }
 
@@ -300,8 +301,9 @@ header{
     display: flex;
     
     flex-direction: row;
-     margin: auto;
-    width:auto ;
+    margin: auto;
+    width:800px ;
+    height:300px ;
     padding: 0.5rem 0.5rem;
     
     justify-content: space-evenly;
@@ -315,11 +317,15 @@ header{
     color: white;
     margin:2rem;
     padding: 1rem;
-    width: 100%;
-  
-    font-size: medium;
+    align-items: center;  
     flex-wrap: wrap;
+    text-align: center;
 
+}
+.flex-heading{
+    color: white;
+    font-size: 25px;
+    text-align: center;
 }
 
 @media (max-width: 800px) {
