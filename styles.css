@@ -236,17 +236,12 @@ header{
 
 /* footer */
 
-/* footer{
-    width: 100%;
-    display: block;
-    right: 0;
-    left: 0;
-    position: absolute;
-} */
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+
+    padding-top: 1.5rem;
+    margin-top: 5rem;
     text-align: center;
     color: white;
     border-top-left-radius: 10px;
@@ -263,7 +258,7 @@ header{
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 25px;
     
 
 }
@@ -319,7 +314,7 @@ header{
     padding-top: 1rem;
     margin: auto;
     width: 70%;
-    margin-bottom: 1rem;
+    
     margin-top: 1rem;
     text-align: center;
     
