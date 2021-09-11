@@ -340,11 +340,9 @@ header{
 }
 
 /* project page */ 
- /* ul.list-non-bullets{
-    margin: 10rem;
-    padding: 1rem;
 
-}  */
+
+
 
 
 .list-non-bullets-projects{
@@ -358,11 +356,9 @@ header{
     max-width: 500px;
     box-shadow: 15px 5px 20px grey;
     
-   
-    
-    
 
 }
+
 
 
 
@@ -370,11 +366,39 @@ header{
     background-color: var(--light-grey);
 }
 
- /* ul .link {
-    margin-top: 10rem;
-} */
+
 
 .appDiscription{
     margin-bottom: 1.5rem;
 }
 
+/* responsiveness */
+
+@media (max-width:500px){
+    .blog-div-center{
+       
+        width: 100%;
+        height: auto;
+       padding:1.5rem;
+        
+    }
+
+    
+    .navigation {
+        
+       padding-bottom: 0;
+        
+    }
+
+    header{
+        margin-top: 9rem;
+    }
+
+
+    .list-non-bullets-projects{
+        margin: 3rem ;
+
+        
+    }
+    
+}
