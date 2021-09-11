@@ -300,7 +300,7 @@ header{
 
 
 .blog-div{
-    background-color: var(--off-white);
+   
     max-width: 50%;
     margin: 4rem auto;
     border: 10px solid transparent;
@@ -309,6 +309,7 @@ header{
 }
 
 .blog-div-center{
+    
     display: block;
     padding-bottom: 2rem;
     padding-top: 1rem;
@@ -386,6 +387,7 @@ header{
     .blog-div{
 
         max-width: 80%;
+       
     }
     
     .blog-div-center  h2{
