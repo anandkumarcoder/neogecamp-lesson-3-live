@@ -382,6 +382,12 @@ header{
        padding:10%;
         
     }
+
+    .blog-div{
+
+        max-width: 80%;
+    }
+    
     .blog-div-center  h2{
     
         font-size: 1.5em;
@@ -400,7 +406,7 @@ header{
 
 
     .list-non-bullets-projects{
-        margin: 1rem ;
+        margin: 2rem 1rem;
         
 
         
