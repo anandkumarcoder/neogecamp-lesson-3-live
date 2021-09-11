@@ -374,7 +374,7 @@ header{
 
 /* responsiveness */
 
-@media (max-width:410px){
+@media (max-width:470px){
     .blog-div-center{
        
         width: 100%;
