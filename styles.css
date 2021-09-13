@@ -189,6 +189,10 @@ header{
 
 }
 
+header p{
+    line-height: 1.8;
+}
+
 
 .hero {
     padding: 2rem;
